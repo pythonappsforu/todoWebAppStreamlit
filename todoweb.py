@@ -9,6 +9,7 @@ def add_todo():
         tf.write_todos(todos_list)
 
 st.title('My Todo App')
+st.subheader('Todo app to increase productivity..')
 
 
 for index,todo in enumerate(todos_list):
